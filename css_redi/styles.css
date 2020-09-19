@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.hero {
+    background-image: linear-gradient(120deg, rgba(241, 147, 251, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../img/header.jpg");
+    width: 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos-hero
+{
+
+	
+  height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a
+{
+    color: #fff;
+    position: absolute;
+    bottom: 60%;
+    right: 560px;
+}
+
+@media screen and (max-width:400px) {
+
+  
+    .textos-hero h2
+    {
+    	position: absolute;
+        bottom: 400px;
+       text-align: center;
+
+    }
+    
+    .textos-hero a {
+       position: absolute;
+        bottom: 350px;
+        right: 100px;
+    }
+    
+
+    .textos-hero p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card {
+        height: 380px;
+    }
+
+    .website .contenedor-textos-main {
+        margin-bottom: 30px;
+    }
+
+    .galeria-cont > img {
+        width: 97%;
+    }
+}
